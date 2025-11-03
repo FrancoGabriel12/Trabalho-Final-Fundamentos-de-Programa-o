@@ -3,7 +3,8 @@ software que fará o gerenciamento de suas consultas.
 Para tanto, criar uma classe chamada Medico que terá os seguintes atributos: CRM (int), nome 
 (String) e especialidade (String). Crie os métodos básicos para a classe.  
 Criar, também, uma classe Paciente que terá os seguintes atributos: codigo (int), nome (String). Crie 
-os métodos básicos para a classe. 
+os métodos básicos para a classe.
+
 Há necessidade de criar a classe Consulta. Esta classe terá os seguintes atributos: nro (int), data 
 (Data), medico (Medico), paciente (Paciente) e valor (double). Crie os métodos básicos para a classe.  
 Vocês precisarão de uma classe Data que deve ser implementada. Esta classe possui os seguintes 
