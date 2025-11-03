@@ -5,6 +5,8 @@ Para tanto, criar uma classe chamada Medico que terá os seguintes atributos: CR
 Criar, também, uma classe Paciente que terá os seguintes atributos: codigo (int), nome (String). Crie 
 os métodos básicos para a classe.
 
+
+
 Há necessidade de criar a classe Consulta. Esta classe terá os seguintes atributos: nro (int), data 
 (Data), medico (Medico), paciente (Paciente) e valor (double). Crie os métodos básicos para a classe.  
 Vocês precisarão de uma classe Data que deve ser implementada. Esta classe possui os seguintes 
