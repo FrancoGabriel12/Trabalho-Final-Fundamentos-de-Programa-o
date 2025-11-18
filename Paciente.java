@@ -6,14 +6,14 @@ public class Paciente {
         this.codigo = codigo;
         this.nome = nome;
     }
-
+//setters
     public void setCodigo (int codigo){
         this.codigo = codigo;
     } 
     public void setNome (String nome){
         this.nome = nome;
     }
-
+//getters
     public int getCodigo() {
         return this.codigo;
     }

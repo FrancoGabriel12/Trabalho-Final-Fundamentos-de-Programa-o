@@ -8,17 +8,17 @@ public class Agenda {
         this.qtdConsultas = 0;
     }
 
-    // 1) adicionarConsulta
-    public boolean adicionarConsulta(Consulta c) {
+    // 1) Adicionar consulta
+    public boolean adicionarConsulta(Consulta consulta) {
         if (qtdConsultas < 40) {
-            consultas[qtdConsultas] = c;
+            consultas[qtdConsultas] = consulta;
             qtdConsultas++;
             return true;
         }
         return false;
     }
 
-    // 2) removerConsulta
+    // 2) remover consulta
     public boolean removerConsulta(int nro) {
         int pos = buscarPosicao(nro);
         if (pos != -1) {
@@ -33,7 +33,7 @@ public class Agenda {
         return false;
     }
 
-    // 3) buscarConsultaPorNro
+    // 3) buscar consulta por número
     public Consulta buscarConsultaPorNro(int nro) {
         int pos = buscarPosicao(nro);
         if (pos != -1) {
@@ -42,7 +42,7 @@ public class Agenda {
         return null;
     }
 
-    // 4) buscarPosicao
+    // 4) buscar posição 
     public int buscarPosicao(int nro) {
         for (int i = 0; i < qtdConsultas; i++) {
             if (consultas[i].getNro() == nro) {
